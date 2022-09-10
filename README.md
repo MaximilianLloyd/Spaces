@@ -6,7 +6,6 @@ A collaborative voxel experience
 
 1. Go installed
 2. Node
-3.
 
 # Optional dependencies
 
@@ -26,3 +25,4 @@ Generator scripts for compiling the protobuffer files to go and typescript can b
 # Development
 1. Start go server by running `air` for live reloading or `go run .`
 2. Start the webpack development server by navigating to the `client` directory and running `npm run dev`
+3. Visit `localhost:8080`
