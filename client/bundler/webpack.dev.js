@@ -25,8 +25,9 @@ module.exports = merge(
             overlay: true,
             noInfo: true,
 			proxy: {
-			'/api': 'http://localhost:3000',
-			},
+		"*": "http://localhost:3000"
+		// "*": 'http://localhost:3000',
+		},
             after: function(app, server, compiler)
             {
                 const port = server.options.port

@@ -8,6 +8,7 @@ html,
 body
 {
     overflow: hidden;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .webgl
@@ -16,4 +17,72 @@ body
     top: 0;
     left: 0;
     outline: none;
+}
+
+.toolbar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #383A3F;
+  padding: 20px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transform: translateY(100%);
+}
+
+.toggle {
+  position: absolute;
+  right: 20px;
+  width: 40px;
+	height: 30px;
+  background-color: #383A3F;
+  top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle svg {
+  width: 16px;
+  height: 16px;
+  fill: #F68657;
+  transform: rotate(180deg);
+}
+
+button {
+  cursor: pointer;
+}
+
+button.button {
+  background-color: #F68657;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  color: #1F2124;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
+
+button.button:hover {
+  background-color: #f35818;
+}
+
+button.small-button {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+  font-size: 12px;
+  border: 2px solid #F68657;
+  color: #F68657;
 }

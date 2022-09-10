@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package spaces_package;
+
+option go_package = "../pb";
+
+message Vec3  {
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+}
+
+message Geometry {
+  Vec3 size = 1;
+  Vec3 position = 2;
+}
+
+message Material {
+  string color = 1;
+}
+
+message Mesh {
+  Geometry geometry = 1;
+  Material material = 2;
+}
+
+message MeshSequence {
+  repeated Mesh meshes = 1;
+  string id = 2;
+  string b
+}
