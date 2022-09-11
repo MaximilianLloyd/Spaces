@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "38f41891-103b-4e57-8fb0-d0b4cd91e894",
+		"name": "Spaces",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7177676"
+	},
+	"item": [
+		{
+			"name": "Smile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"smile\",\n    \"meshes\": [{\n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 4,\n                \"y\": 8,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 8,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 8,\n                \"y\": 6,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 8,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n           {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 6,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 5,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 4,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n           {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 3,\n                \"y\": 5,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n               {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 3,\n                \"y\": 6,\n                \"z\": 10\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Smile with tounge",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"smile\",\n    \"meshes\": [{\n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 4,\n                \"y\": 8,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 8,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 8,\n                \"y\": 6,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 8,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n           {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 7,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 6,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n    {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 5,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n       {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 4,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n           {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 3,\n                \"y\": 5,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n               {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 1,\n                \"y\": 1,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 3,\n                \"y\": 6,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#F6B352\"\n        }\n    },\n                   {\n        \n        \"geometry\": {\n            \"size\": {\n                \"x\": 2,\n                \"y\": 2,\n                \"z\": 1\n            },\n            \"position\": {\n                \"x\": 5,\n                \"y\": 3,\n                \"z\": 9\n            }\n        },\n        \"material\": {\n            \"color\": \"#d1908e\"\n        }\n    }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cactus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"cactus\",\n    \"meshes\": [{\n        \"geometry\": {\n            \"size\": {\n                \"x\": 5,\n                \"y\": 1,\n                \"z\": 5\n            },\n            \"position\": {\n                \"x\": 2,\n                \"y\": 1,\n                \"z\": 2\n            }\n        },\n        \"material\": {\n            \"color\": \"#918e7d\"\n        }\n    },\n    {\n        \"geometry\": {\n            \"size\": {\n                \"x\": 3,\n                \"y\": 5,\n                \"z\": 3\n            },\n            \"position\": {\n                \"x\": 3,\n                \"y\": 2,\n                \"z\": 3\n            }\n        },\n        \"material\": {\n            \"color\": \"#5B6F55\"\n        }\n    }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
