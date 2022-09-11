@@ -2,6 +2,8 @@
 
 A collaborative voxel experience
 
+![Preview of experience](preview.png "Spaces preview")
+
 # Requirements
 
 1. Go installed
